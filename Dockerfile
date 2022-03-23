@@ -55,6 +55,9 @@ RUN apt-get update \
 		file \
 		libmagic-dev \
 		media-types \
+		# barcode recognition
+		libzbar0 \
+		poppler-utils \
 		# OCRmyPDF dependencies
 		liblept5 \
 		tesseract-ocr \
